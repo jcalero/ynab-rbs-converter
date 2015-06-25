@@ -129,6 +129,21 @@ $rules = [
 			'category' => 'Fun: Social',
 			'memo' => 'Tommy\'s'
 		]
+	],
+	'laracasts' => [
+		'regex' => '/JEFFREY\@LAR/',
+		'data' => [
+			'payee' => 'Laracasts',
+			'category' => 'Fun: Technology',
+			'memo' => "\$9 Laravel online course monthly subscription"
+		]
+	],
+	'ryanair' => [
+		'regex' => '/RYANAIR/',
+		'data' => [
+			'payee' => 'Ryanair',
+			'category' => 'Rare Expenses: Holiday Travel'
+		]
 	]
 ];
 /////////////////////
