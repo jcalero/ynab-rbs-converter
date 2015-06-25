@@ -192,7 +192,7 @@ foreach ($rows as &$row) {
 echo "Finished reading file\n";
 echo "Number of lines read: " . $count . "\n";
 
-$output_filename = 'output-' . date("Y-m-d-Hm") . '.csv';
+$output_filename = 'output-' . date("Y-m-d-Hi") . '.csv';
 $fp = fopen($output_filename, 'w');
 
 fputcsv($fp, $ynab_headers);
